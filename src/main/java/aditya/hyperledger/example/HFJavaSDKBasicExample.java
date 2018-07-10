@@ -1,4 +1,4 @@
-package lkolisko.hyperledger.example;
+package aditya.hyperledger.example;
 
 import org.apache.log4j.Logger;
 import org.hyperledger.fabric.sdk.ChaincodeID;
@@ -43,7 +43,7 @@ import java.util.concurrent.TimeUnit;
  * <li>invoking chaincode query</li>
  * </ul>
  *
- * @author lkolisko
+ * @author aditya
  */
 public class HFJavaSDKBasicExample {
 
