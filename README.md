@@ -35,17 +35,17 @@ Enough talking and let’s get something up and running….
 
 Clone the example code from here into demo directory
 
-    git clone [https://github.com/lkolisko/scratch.git](https://github.com/sahaaditya62/hyperledger_java.git) tutorial
+    git clone https://github.com/sahaaditya62/hyperledger_java.git tutorial
 
-and navigate to tutorial/hyperledger/fabric-sdk-java-scratch.
+and navigate to hyperledger_java/.
 
 The project itself has just 4 three important files.
 
 1. **pom.xml** —maven build file including dependency to fabric-sdk-java artifact. org.hyperledger.fabric-sdk-java: fabric-sdk-java:1.0.1 . There might be a new version available at the time you are reading this. You must ensure you fabric-sdk-java version is the same release series as the images used in fabric-samples. Otherwise you might run into incompatibility issues at protobuf leves or APIs.
 
-1. **src/main/java/lkolisko/hyperledger/example/AppUser.java **— this is minimal implementation of the User interface. The sdk itself does not provide implementation, therefore we must do here ourselves.
+1. **src/main/java/aditya/hyperledger/example/AppUser.java **— this is minimal implementation of the User interface. The sdk itself does not provide implementation, therefore we must do here ourselves.
 
-1. **src/main/java/lkolisko/hyperledger/example/HFJavaSDKBasicExample.java** — this is the main class and will further talk about details bellow.
+1. **src/main/java/aditya/hyperledger/example/HFJavaSDKBasicExample.java** — this is the main class and will further talk about details bellow.
 
 1. **src/main/resources/log4j.xml** — log4j configuration. I highly suggest to set the root logger to debug. You will be able to see all the information about communication between client the other components of the fabric network.
 
